@@ -1,0 +1,15 @@
+body, div, dl, dt, dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote，th,td{margin:0;padding:0;} 
+ol,ul {list-style:none;} 
+a{text-decoration:none;}
+body{font-family:Arial, Helvetica, sans-serif;font-size:18px;background:#000;height:100%;}
+#wrap{width:960px;margin:70px auto;overflow:hidden;}
+#wrap section p{font-size:70px;font-weight:bold;color:#fff;}
+#wrap section{width:50%;float:left;}
+#wrap section ul{font-size:24px;margin-top:70px;font-weight:bold;width:100%;color:#000;}
+#wrap section ul li.w_o{width:200px;}
+#wrap section ul li.w_t{width:250px;}
+#wrap section ul li.w_h{width:310px;}
+#wrap section ul li{background:#f3f3f3;height:40px;line-height:40px;margin-bottom:10px;width:200px;position:relative;}
+#wrap section ul li a{position:absolute;top:0;left:0;padding-left:30px;color:#000;}
+#wrap section ul li em{position:absolute;bottom:0;left:0;width:100%;height:100%;background:#f5b402;opacity:0;filter:alpha(opacity:0);}
+#wrap .imp{width:45%;float:right;}
