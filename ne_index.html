@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<script src="js/swiper.min.js"></script>
+	<title>新闻中心</title>
+	<style>
+	*{margin:0; padding:0; list-style:none;}
+	html{-webkit-tap-hightlight-color:rgba(255,255,255,0);-webkit-text-size-adjust:none;font-size:20px;}
+	#wrap{font-size:0.75rem;}
+	nav{width:100%;}
+	nav ul{width:100%; height:2.125rem; display:-webkit-box;font-size:0.65rem;}
+	nav ul li{height:2.125rem;display:block;-webkit-box-flex:1; text-align:center;line-height:2.215rem;}
+	nav ul li a{width:100%;height:2.125rem;display:block;}
+	nav ul li a.active{background:#fe6401;color:#fff;}
+	.swiper-container, .swiper-wrapper, .swiper-slide{width:100%;}
+	.swiper-slide img{width:100%;}
+	#dailt{position:absolute;bottom:1rem;padding-left:40%;width:100%;}
+	.swiper-pagination-bullet{background:#fff;opacity:1;}
+	.swiper-pagination-bullet-active{background:#fc5904;}
+	section{width:100%;}
+	section .top{width:100%;height:1.875rem;margin-top:1rem;border-top:0.125rem solid #a6c6de;background:#f9fbfa;}
+	section .top a{width:3.125rem; height:100%;text-align:center;line-height:1.875rem;float:left;font-weight:bold;color:#2aa1c7;}
+	section .top .active{background:#f67532;display:block;color:#fff;}
+	section ul{width:calc(100% - 1rem);display:none;padding:0.5rem;}
+	section ul.show{display:block;}
+	section ul li{border-bottom:1px solid #efefef;line-height:1.375rem;}
+	</style>
+	<script>
+		document.addEventListener('DOMContentLoaded',function(){
+			document.documentElement.style.fontSize=document.documentElement.clientWidth/16+'px';
+
+			//轮播图
+			new Swiper('.swiper-container',{
+				pagination:'.swiper-pagination',
+			    	autoplay: 2500,
+			           autoplayDisableOnInteraction: false
+			});
+			//选项卡
+			var aBtn=document.querySelectorAll('section .top a');
+			var aUl=document.querySelectorAll('section ul');
+			for(var i=0; i<aBtn.length; i++){
+				aBtn[i].dataset.index=i;
+				aBtn[i].addEventListener('touchstart',function(){
+					for(var i=0; i<aBtn.length; i++){
+						aBtn[i].classList.remove('active');
+						aUl[i].classList.remove('show');
+					}
+					this.classList.add('active');	
+					aUl[this.dataset.index].classList.add('show');
+				},false);
+			}
+		},false)	
+	</script>
+</head>
+<body>
+	<div id="wrap">
+		<nav>
+			<ul>
+				<li><a class="active" href="javascript:;">新闻</a></li>
+				<li><a href="javascript:;">财经</a></li>
+				<li><a href="javascript:;">娱乐</a></li>
+				<li><a href="javascript:;">体育</a></li>
+				<li><a href="javascript:;">订阅</a></li>
+			</ul>
+		</nav>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="images/nebanner2.jpg"></div>
+				<div class="swiper-slide"><img src="images/nebanner1.jpg"></div>
+			</div>
+
+			<!-- Add Pagination -->
+        			<div class="swiper-pagination" id="dailt"></div>
+		</div>
+		<section>
+			<div class="top">
+				<a class="active" href="javascript:;">新闻</a>
+				<a href="javascript:;">社会</a>
+				<a href="javascript:;">军事</a>
+			</div>
+			<ul class="show">
+				<li>朝鲜逃兵越境杀4名中国人被捕</li>
+				<li>温州立人集团非法吸存案宣判</li>
+				<li>陈水扁做狱6年后获准保就医</li>
+				<li>1名韩国毒贩在华被执行死刑</li>
+				<li>呼格案疑似真凶赵志红受审</li>
+				<li>媒体披露杨卫泽被带走细节</li>
+				<li>他们家长不觉得丢人吗？</li>
+				<li>该样板戏，你能比许可牛吗?</li>
+				<li>社保缴费狂涨：穷人不看重负</li>
+				<li>A股美已成往事元：当负相关</li>
+			</ul>
+			<ul>
+				<li>他们家长不觉得丢人吗？</li>
+				<li>该样板戏，你能比许可牛吗?</li>
+				<li>社保缴费狂涨：穷人不看重负</li>
+				<li>A股美已成往事元：当负相关</li>
+				<li>温州立人集团非法吸存案宣判</li>
+				<li>陈水扁做狱6年后获准保就医</li>
+				<li>1名韩国毒贩在华被执行死刑</li>
+				<li>呼格案疑似真凶赵志红受审</li>
+				<li>媒体披露杨卫泽被带走细节</li>			
+			</ul>
+			<ul>
+				<li>1名韩国毒贩在华被执行死刑</li>
+				<li>呼格案疑似真凶赵志红受审</li>
+				<li>媒体披露杨卫泽被带走细节</li>
+				<li>温州立人集团非法吸存案宣判</li>
+				<li>陈水扁做狱6年后获准保就医</li>
+				<li>他们家长不觉得丢人吗？</li>
+				<li>该样板戏，你能比许可牛吗?</li>
+				<li>社保缴费狂涨：穷人不看重负</li>
+				<li>A股美已成往事元：当负相关</li>
+			</ul>
+		</section>
+	</div>
+</body>
+</html>
