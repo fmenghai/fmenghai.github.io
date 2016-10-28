@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>财商测试</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+	<link href="css/cs_style.css" rel="stylesheet">
+	<script src="js/jquery.min.js"></script>
+	<script>
+		;(function(win,doc){
+			function change(){
+				document.documentElement.style.fontSize=document.documentElement.clientWidth/16+'px'
+			}			
+			doc.addEventListener('DOMContentLoaded',change,false);	
+			win.addEventListener('resize',change,false);
+		})(window,document);
+	</script>
+</head>
+<body>
+	<div id="begin">
+		<img class="logo" src="images/cs_logo.png">
+		<img class="title" src="images/title.png">
+		<div class="push">
+			<img class="but1" src="images/anniu1.png">
+			<img class="but2" src="images/anniu2.png">
+		</div>
+		<img class="bg2" src="images/bg2.png">
+	</div>
+	<div id="total" style="display:none;">
+		<div class="ques1" style="display:block">
+			<img class="ques_bg" src="images/ban.png">
+			<h3><img src="images/zhuanzhu.png"></h3>
+			<p><img src="images/1.png"></p>
+			<ul>
+				<li><img src="images/1a.png"></li>
+				<li><img src="images/1b.png"></li>
+				<li><img src="images/1c.png"></li>
+			</ul>
+		</div>
+		<div class="ques2">
+			<img class="ques_bg" src="images/ban.png">
+			<h3><img src="images/siwei.png"></h3>
+			<p><img src="images/2.png"></p>
+			<ul>
+				<li><img src="images/2a.png"></li>
+				<li class="yc"></li>
+				<li><img src="images/2b.png"></li>
+			</ul>
+		</div>
+		<div class="ques3">
+			<img class="ques_bg" src="images/ban.png">
+			<h3><img src="images/panduan.png"></h3>
+			<p><img src="images/3.png"></p>
+			<ul>
+				<li><img src="images/3a.png"></li>
+				<li><img src="images/3b.png"></li>
+				<li><img src="images/3c.png"></li>
+			</ul>
+		</div>
+		<div class="ques4">
+			<img class="ques_bg" src="images/ban.png">
+			<h3><img src="images/panduan.png"></h3>
+			<p><img src="images/4.png"></p>
+			<ul>
+				<li><img src="images/4a.png"></li>
+				<li class="yc"></li>
+				<li><img src="images/4b.png"></li>
+			</ul>
+		</div>
+		<div class="ques5">
+			<img class="ques_bg" src="images/ban.png">
+			<h3><img src="images/fenxi.png"></h3>
+			<p><img src="images/5.png"></p>
+			<ul>
+				<li><img src="images/5a.png"></li>
+				<li class="yc"></li>
+				<li><img src="images/5b.png"></li>
+			</ul>
+		</div>
+		<div class="ques6">
+			<img class="ques_bg" src="images/ban.png">
+			<h3><img src="images/shuli.png"></h3>
+			<p><img src="images/6.png"></p>
+			<ul>
+				<li><img src="images/6a.png"></li>
+				<li class="yc"></li>
+				<li><img src="images/6b.png"></li>
+			</ul>
+		</div>
+		<div class="ques7">
+			<img class="ques_bg" src="images/ban.png">
+			<h3><img src="images/chijiu.png"></h3>
+			<p><img src="images/7.png"></p>
+			<ul>
+				<li><img src="images/7a.png"></li>
+				<li><img src="images/7b.png"></li>
+				<li><img src="images/7c.png"></li>
+			</ul>
+		</div>
+		<div class="ques8">
+			<img class="ques_bg" src="images/ban.png">
+			<h3><img src="images/guihua.png"></h3>
+			<p><img src="images/8.png"></p>
+			<ul>
+				<li><img src="images/8a.png"></li>
+				<li class="yc"></li>
+				<li><img src="images/8b.png"></li>
+			</ul>
+		</div>
+		<div class="ques9">
+			<img class="ques_bg" src="images/ban.png">
+			<h3><img src="images/zhixing.png"></h3>
+			<p><img src="images/9.png"></p>
+			<ul>
+				<li><img src="images/9a.png"></li>
+				<li class="yc"></li>
+				<li><img src="images/9b.png"></li>
+			</ul>
+		</div>
+		<div class="ques10">
+			<img class="ques_bg" src="images/ban.png">
+			<h3><img src="images/xuexi.png"></h3>
+			<p><img src="images/10.png"></p>
+			<ul>
+				<li><img src="images/10a.png"></li>
+				<li><img src="images/10b.png"></li>
+				<li><img src="images/10c.png"></li>
+			</ul>
+		</div>
+		<img class="bg2" src="images/bg2.png">
+	</div>
+	<div id="total2" style="display:none;">
+		<div class="ques1" style="display:block">
+			<img class="ques_bg" src="images/ban.png">
+			<h3><img src="images/img/zhuanzhu.png"></h3>
+			<p><img src="images/img/1.png"></p>
+			<ul>
+				<li><img src="images/img/1a.png"></li>
+				<li><img src="images/img/1b.png"></li>
+				<li><img src="images/img/1c.png"></li>
+			</ul>
+		</div>
+		<div class="ques2">
+			<img class="ques_bg" src="images/ban.png">
+			<h3><img src="images/siwei.png"></h3>
+			<p><img src="images/img/2.png"></p>
+			<ul>
+				<li><img src="images/img/2a.png"></li>
+				<li><img src="images/img/2b.png"></li>
+				<li><img src="images/img/2c.png"></li>
+			</ul>
+		</div>
+		<div class="ques3">
+			<img class="ques_bg" src="images/ban.png">
+			<h3><img src="images/panduan.png"></h3>
+			<p><img src="images/img/3.png"></p>
+			<ul>
+				<li><img src="images/img/3a.png"></li>
+				<li><img src="images/img/3b.png"></li>
+				<li><img src="images/img/3c.png"></li>
+			</ul>
+		</div>
+		<div class="ques4">
+			<img class="ques_bg" src="images/ban.png">
+			<h3><img src="images/panduan.png"></h3>
+			<p><img src="images/img/4.png"></p>
+			<ul>
+				<li><img src="images/img/4a.png"></li>
+				<li><img src="images/img/4b.png"></li>
+				<li><img src="images/img/4c.png"></li>
+			</ul>
+		</div>
+		<div class="ques5">
+			<img class="ques_bg" src="images/ban.png">
+			<h3><img src="images/fenxi.png"></h3>
+			<p><img src="images/img/5.png"></p>
+			<ul>
+				<li><img src="images/img/5a.png"></li>
+				<li><img src="images/img/5b.png"></li>
+				<li><img src="images/img/5c.png"></li>
+			</ul>
+		</div>
+		<div class="ques6" id="g_qu">
+			<img class="ques_bg" src="images/ban.png">
+			<h3><img src="images/shuli.png"></h3>
+			<p><img src="images/img/6.png"></p>
+			<ul>
+				<li><img src="images/img/6a.png"></li>
+				<li><img src="images/img/6b.png"></li>
+				<li><img src="images/img/6c.png"></li>
+			</ul>
+		</div>
+		<div class="ques7">
+			<img class="ques_bg" src="images/ban.png">
+			<h3><img src="images/chijiu.png"></h3>
+			<p><img src="images/img/7.png"></p>
+			<ul>
+				<li><img src="images/img/7a.png"></li>
+				<li><img src="images/img/7b.png"></li>
+				<li><img src="images/img/7c.png"></li>
+			</ul>
+		</div>
+		<div class="ques8">
+			<img class="ques_bg" src="images/ban.png">
+			<h3><img src="images/guihua.png"></h3>
+			<p><img src="images/img/8.png"></p>
+			<ul>
+				<li><img src="images/img/8a.png"></li>
+				<li><img src="images/img/8b.png"></li>
+				<li><img src="images/img/8c.png"></li>
+			</ul>
+		</div>
+		<div class="ques9">
+			<img class="ques_bg" src="images/ban.png">
+			<h3><img src="images/zhixing.png"></h3>
+			<p><img src="images/img/9.png"></p>
+			<ul>
+				<li><img src="images/img/9a.png"></li>
+				<li><img src="images/img/9b.png"></li>
+				<li><img src="images/img/9c.png"></li>
+			</ul>
+		</div>
+		<div class="ques10">
+			<img class="ques_bg" src="images/ban.png">
+			<h3><img src="images/xuexi.png"></h3>
+			<p><img src="images/img/10.png"></p>
+			<ul>
+				<li><img src="images/img/10a.png"></li>
+				<li><img src="images/img/10b.png"></li>
+				<li><img src="images/img/10c.png"></li>
+			</ul>
+		</div>
+		<img class="bg2" src="images/bg2.png">
+	</div>
+	<div id="final" style="display:none;">
+		<img class="finalbg1" src="images/shan.png" alt="" />
+		<img class="bg2" src="images/bg2.png">
+		<div class="result1">
+			<img class="resultimg" src="images/Base.png" alt="" />
+			<p class="result-wrap"><img class="resultbg2"  src="images/daixng.png" alt="" /></p>
+			<img  class="result-nr" src="images/tu1.png" alt="" />
+		</div>
+		<div class="result2">
+			<img class="resultimg" src="images/Base.png" alt="" />
+			<p class="result-wrap"><img class="resultbg1" src="images/xiaoxing2.png" alt="" /><img class="resultbg2"  src="images/daixng.png" alt="" /></p>
+			<img  class="result-nr" src="images/tu2.png" alt="" />
+		</div>
+		<div class="result3">
+			<img class="resultimg" src="images/Base.png" alt="" />
+			<p class="result-wrap"><img class="resultbg1" src="images/xiaoxing2.png" alt="" /><img class="resultbg2"  src="images/daixng.png" alt="" /><img class="resultbg3"  src="images/xiaoxing1.png" alt="" /></p>
+			<img  class="result-nr" src="images/tu.png" alt="" />
+		</div>
+		<img class="finalimg3" src="images/erweima.png" alt="" />
+		<img class="finalimg4"  src="images/fenxiang.png" alt="" />
+	</div>
+	<script>
+	$(function(){
+		$('.push .but1').click(function(){
+			$('#total').animate({opacity:'show'},700);
+			$(this).parent().parent().animate({opacity:'hide'},700);
+
+		});
+		$('.push .but2').click(function(){
+			$('#total2').animate({opacity:'show'},700);
+			$(this).parent().parent().animate({opacity:'hide'},700);
+
+		});
+	});
+	$(function(){
+		var num=0;
+		$('#total div').each(function(){
+			$(this).find('ul li').each(function(){
+				//var bgFalse=true;
+				$(this).click(function(){
+					//if(bgFalse=false)return;
+					var index=$(this).index();
+					if(index==0){
+						num+=3;
+					}else if(index==1){
+						num+=2;
+					}else if(index==2){
+						num+=1;
+					}
+					var oPar=$(this).parent().parent();
+					oPar.animate({opacity:'hide'},1000);
+					oPar.next().animate({opacity:'show'},1000);
+					var index2=oPar.index();
+
+					if(index2==9){
+						$('#total').hide();
+						$('#final').show();
+						if(19>=num && num>=0){
+							$('.result1').animate({opacity:'show'},1000);
+						}else if(25>=num && num>=20){
+							$('.result2').animate({opacity:'show'},1000);
+						}else if(30>=num && num>=26){
+							$('.result3').animate({opacity:'show'},1000);
+						}
+					}
+				});
+				
+			});
+		});
+		$('#total2 div').each(function(){
+			$(this).find('ul li').each(function(){
+				$(this).click(function(){
+					var index=$(this).index();
+					if(index==0){
+						num+=3;
+					}else if(index==1){
+						num+=2;
+					}else if(index==2){
+						num+=1;
+					}
+					var oPar=$(this).parent().parent();
+					oPar.animate({opacity:'hide'},1000);
+					oPar.next().animate({opacity:'show'},1000);
+					var index2=oPar.index();
+					if(index2==9){
+						$('#total2').hide();
+						$('#final').show();
+						if(19>=num && num>=0){
+							$('.result1').animate({opacity:'show'},1000);
+						}else if(25>=num && num>=20){
+							$('.result2').animate({opacity:'show'},1000);
+						}else if(30>=num && num>=26){
+							$('.result3').animate({opacity:'show'},1000);
+						}
+					}
+				});
+				
+			});
+		});
+	});
+	</script>
+</body>
+</html>

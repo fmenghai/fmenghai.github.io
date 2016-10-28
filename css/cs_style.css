@@ -1,0 +1,48 @@
+body, div, dl, dt, dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote，th,td{margin:0;padding:0;} 
+ol,ul {list-style:none;} 
+a{text-decoration:none;}
+html{height:100%;-webkit-tap-hightlight-color:rgba(255,255,255,0);-webkit-text-size-adjust:none;font-size:20px;}
+body{font-size:0.6rem;height:100%;background:-webkit-linear-gradient(#82b6e2,#b8e0e9);background:linear-gradient(#82b6e2,#b8e0e9);}
+#begin,#total,#total2{ background:-webkit-linear-gradient(#82b6e2,#b8e0e9);background:linear-gradient(#82b6e2,#b8e0e9);height:100%;width:100%;position:relative;}
+#begin .logo{position:absolute;top:0.75rem;left:0.675rem;width:4.375rem;height:1.375rem;}
+#begin .title{position:absolute;top:0.75rem;left:0.675rem;width:14.35rem;height:9.75rem;}
+#begin .logo{position:absolute;top:0.75rem;left:0.675rem;width:4.375rem;height:1.375rem;}
+#begin .push{z-index:99;text-align:center;position:absolute;top:12rem;}
+#begin .push .but1{-webkit-tap-highlight-color:rgba(0, 0, 0, 0);width:13.5rem;height:5.625rem;}
+#begin .push .but2{-webkit-tap-highlight-color:rgba(0, 0, 0, 0);width:13rem;height:2.5rem;margin-left:0.2rem;}
+#begin .bg2,#total .bg2,#total2 .bg2,#final .bg2{position:absolute;bottom:0rem;left:0rem;width:100%;height:5.75rem;}
+/*#total{background:-webkit-linear-gradient(#82b6e2,#b8e0e9);background:linear-gradient(#82b6e2,#b8e0e9);height:100%;position:relative;}*/
+#total div,#total2 div{z-index:99;width:100%;height:100%;position:absolute;overflow:hidden;top:0;left:0;display:none;}
+#total div ul,#total2 div ul{position:absolute;top:9.75rem;left:3.425rem;}
+#total div li{-webkit-tap-highlight-color:rgba(0, 0, 0, 0);text-align:center;background:url('../images/button_bg.png') no-repeat;background-size:9.25rem 1.875rem;width:9.25rem;height:1.875rem;margin-bottom:1rem;}
+#total2 div li{-webkit-tap-highlight-color:rgba(0, 0, 0, 0);text-align:center;background:url('../images/img/button_bg.png') no-repeat;background-size:9.25rem 1.875rem;width:9.25rem;height:1.875rem;margin-bottom:1rem;}
+#total div li img,#total2 div li img{margin-top:0.5rem;height:1rem;}
+#total div ul .yc,#total2 div ul .yc{display:none;}
+#total div .ques_bg,#total2 div .ques_bg{position:absolute;top:2rem;left:1.375rem;width:13.25rem;height:17.25;}
+#total div h3{position:absolute;top:1rem;left:2.75rem;text-align:center;width:10.75rem;height:2.5rem;background:url('../images/dai.png') no-repeat;background-size:10.75rem 2.5rem;}
+#total2 div h3{position:absolute;top:1rem;left:2.75rem;text-align:center;width:10.75rem;height:2.5rem;background:url('../images/img/dai.png') no-repeat;background-size:10.75rem 2.5rem;}
+#total div h3 img,#total2 div h3 img{margin-top:0.2rem;width:3.125rem;height:1.125rem;}
+#total div p,#total2 div p{position:absolute;top:5rem;left:3rem;}
+#total div p img,#total2 div p img{width:10rem;}
+#total2 #g_qu ul{margin-top:1.7rem;}
+#total2 #g_qu ul li{margin-bottom:0.2rem;}
+#final div{display:none;}
+
+#final{z-index:100000;background:-webkit-linear-gradient(#c0dbf0,#d5edf1);background:linear-gradient(#82b6e2,#b8e0e9);height:100%;width:100%;position:relative;}
+#final .finalimg3{width:4.325rem; height:4.075rem; position:absolute; bottom:1.75rem; left: 3.75rem; z-index:33;}
+#final .finalimg4{width:4.8rem; height:1.575rem; position:absolute; bottom:3.425rem; right:2.5rem; z-index:33;}
+#final .finalbg1{width:100%; height:100%; position:absolute; top:0; left: 0; z-index:1;}
+#final .result1,#final .result2,#final .result3{width:12.4rem; height:18.25rem; top:0.8rem; left: 1.8rem; position:absolute; z-index:99;} 
+
+#final .resultimg{width:10.325rem; height:3.55rem; position:absolute; left:1.05rem; top:0;}
+#final .bg2{z-index:10;}
+#final  .result-wrap img{position:absolute;}
+#final  .result-wrap{width:12.4rem; height:3.65rem; position:relative;}
+#final  .result-wrap .resultbg1{left:1.05rem; top:0.925rem;}
+#final  .result-wrap .resultbg2{left:4.575rem; top:0;}
+#final  .result-wrap .resultbg3{right:1.05rem; top:0.925rem;}
+#final  .result-nr{position:absolute;top:3.3rem;width:12.4rem; height:14.825rem; display:block;}
+#final  .resultbg1,#final  .resultbg3{width:2.55rem; height:2.55rem;}
+#final  .resultbg2{width:3.325rem; height:3.15rem;}
+
+
